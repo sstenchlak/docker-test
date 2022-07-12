@@ -1,0 +1,9 @@
+[submodule "fks-texmf"]
+	path = fks-texmf
+	url = https://github.com/fykosak/fks-texmf
+[submodule "fks-scripts"]
+	path = fks-scripts
+	url = https://github.com/fykosak/fks-scripts
+[submodule "fks-templates"]
+	path = fks-templates
+	url = https://github.com/fykosak/fks-templates
