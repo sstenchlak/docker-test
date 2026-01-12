@@ -36,6 +36,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: sstenchlak/docker-test:latest
+          tags: ${{ env.REGISTRY }}/${{ github.actor }}/docker-test:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
