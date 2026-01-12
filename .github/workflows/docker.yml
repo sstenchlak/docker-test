@@ -5,6 +5,10 @@ on:
     branches:
       - master
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: sstenchlak/docker-test
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest

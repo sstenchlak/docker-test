@@ -6,4 +6,6 @@ COPY touch touch
 
 RUN cat touch >> build_date.txt
 
+RUN cat build_date.txt
+
 CMD ["cat", "build_date.txt"]
